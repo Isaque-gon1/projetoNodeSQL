@@ -30,12 +30,21 @@ h1{
 }
 
 .btbDel, .btnEdit{
+    border-width: 4.5px;
+    border-style: solid;
+    border: none;
+    padding:8.5px 8.5px ;
+    font-size: 5px;
     position: absolute;
-    margin: 3%  0 0 95%;
+    margin: 4%  0 0 95%;
 }
 
 .btnEdit{
-    
+   border-width: 4.5px;
+   border-style: solid;
+   border: none; 
+   padding: 10px 7px;
+   font-size: 5px;
     margin: 1%  0 0 95%;
 }
 
@@ -58,7 +67,7 @@ input, select, button,a {
 button,a {
     align-items: center;
     text-align: center;
-    justify-content: center;;
+    justify-content: center;
     background-color: #4CAF50;
     color: white;
     border: none;
