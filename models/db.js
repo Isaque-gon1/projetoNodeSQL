@@ -4,7 +4,7 @@ const Sequelize = require("sequelize");
 
 //conexão com o banco de dados Mysql                      cmd: config mysql mysql -h localhost -u root -p
 
-const sequelize =  new Sequelize("diascurso", "root", "Ets2@123",{
+const sequelize =  new Sequelize("diascurso", "root", "1234",{
     host: "localhost",
     dialect: "mysql"
 });
